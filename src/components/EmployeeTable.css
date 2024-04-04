@@ -1,6 +1,5 @@
 .table-container {
   display: flex;
-  width: 100%;
   justify-content: center;
 }
 
@@ -24,12 +23,21 @@ table th {
   background: linear-gradient(180deg, #5a84c0 0%, #594ed2 100%);
   color: white;
   text-transform: uppercase;
+  text-align: start;
+  padding-left: 5%;
 }
 
 table td {
+  width: 20%;
   height: 50px;
-  text-align: center;
+  text-align: start;
   border-bottom: 1px solid #e9ecef;
+  padding: 5px;
+  padding-left: 5%;
+}
+
+table td:first-child {
+  width: 10%;
 }
 
 table tr {
@@ -41,6 +49,4 @@ td img {
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  top: 8px;
-  left: 32px;
 }
