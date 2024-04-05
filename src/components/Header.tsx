@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import BeIcon from '../assets/bemobileicon.svg';
+import BeIcon from '../assets/bemobile-icon.svg';
 
 function Header() {
   return (
