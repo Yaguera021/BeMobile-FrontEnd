@@ -9,7 +9,7 @@ function SearchBar() {
       <div className='input-container'>
         <input type='text' placeholder='Pesquisar' />
         <button className='search-button'>
-          <img src={SearchIcon} alt='search' />
+          <img src={SearchIcon as string} alt='search' />
         </button>
       </div>
     </div>

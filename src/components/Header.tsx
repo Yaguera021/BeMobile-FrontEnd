@@ -5,7 +5,7 @@ import BeIcon from '../assets/bemobile-icon.svg';
 function Header() {
   return (
     <div className='header'>
-      <img src={BeIcon} alt='Be Mobile Icon' className='icon' />
+      <img src={BeIcon as string} alt='Be Mobile Icon' className='icon' />
     </div>
   );
 }
