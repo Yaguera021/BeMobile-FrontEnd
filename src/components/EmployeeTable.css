@@ -1,12 +1,13 @@
 .table-container {
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  width: 94%;
 }
 
 table {
-  width: 80%;
+  width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
   background-color: white;
 }
 

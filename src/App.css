@@ -10,6 +10,14 @@ body {
   background-color: #f0f0f0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   font-family: 'Roboto', medium, sans-serif;
   font-size: 24px;
@@ -24,4 +32,13 @@ h3 {
   font-family: 'Roboto', regular, sans-serif;
   font-size: 16px;
   font-weight: normal;
+}
+
+h4 {
+  font-family: 'Roboto', regular, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28.13px;
+  width: 139px;
+  height: 28px;
 }
