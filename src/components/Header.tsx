@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-const BeIcon = require('../assets/bemobile-icon.svg') as string;
+import BeIcon from '../assets/bemobile-icon.svg';
 
 function Header() {
   return (
