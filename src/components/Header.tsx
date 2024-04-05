@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
-import BeIcon from '../assets/bemobile-icon.svg';
+const BeIcon = require('../assets/bemobile-icon.svg') as string;
 
 function Header() {
   return (
     <div className='header'>
-      <img src={BeIcon as string} alt='Be Mobile Icon' className='icon' />
+      <img src={BeIcon} alt='Be Mobile Icon' className='icon' />
     </div>
   );
 }
