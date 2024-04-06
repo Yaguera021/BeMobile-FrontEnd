@@ -51,3 +51,9 @@ td img {
   height: 34px;
   border-radius: 50%;
 }
+
+@media (max-width: 560px) {
+  table td {
+    width: auto;
+  }
+}

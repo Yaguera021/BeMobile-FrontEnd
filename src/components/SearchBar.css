@@ -42,3 +42,15 @@
   background-color: #ffffff;
   border-radius: 8px;
 }
+
+@media (max-width: 560px) {
+  .search-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}
