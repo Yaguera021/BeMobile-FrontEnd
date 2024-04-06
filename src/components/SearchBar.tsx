@@ -2,7 +2,7 @@
 import React from 'react';
 import './SearchBar.css';
 import { useFilter } from '../context/FilterContext.tsx';
-import SearchIcon from '../assets/search-icon.svg';
+import { SearchIcon } from '../svgImports.js';
 
 function SearchBar() {
   const { filter, setFilter } = useFilter();
