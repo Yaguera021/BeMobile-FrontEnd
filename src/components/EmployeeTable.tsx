@@ -4,15 +4,7 @@ import { fetchEmployees } from '../data/api';
 import './EmployeeTable.css';
 import formatPhoneNumber from '../utils/formatPhoneNumber.ts';
 import { useFilter } from '../context/FilterContext.tsx';
-
-interface Employee {
-  id: number;
-  image: string;
-  name: string;
-  job: string;
-  admission_date: string;
-  phone: string;
-}
+import Employee from '../types/EmployeeTypes.tsx';
 
 const EmployeeTable = () => {
   const [employees, setEmployees] = useState<Employee[]>([]);

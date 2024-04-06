@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header.tsx';
 import EmployeeTable from './components/EmployeeTable.tsx';
 import SearchBar from './components/SearchBar.tsx';
+import MobileTable from './components/MobileTable.tsx';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <main>
         <SearchBar />
-        <EmployeeTable />
+        {/* <EmployeeTable /> */}
+        {/* <MobileTable /> */}
       </main>
     </div>
   );
