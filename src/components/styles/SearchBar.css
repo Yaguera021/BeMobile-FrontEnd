@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  width: 94%;
-  align-items: center;
+  width: 90%;
 }
 
 .search-container input {
