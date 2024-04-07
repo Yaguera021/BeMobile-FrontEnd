@@ -22,6 +22,7 @@ function SearchBar() {
           placeholder='Pesquisar'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
         />
         <button className='search-button' onClick={handleSearch}>
           <img src={SearchIcon} alt='search' />
