@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchEmployees } from '../data/api';
-import './MobileTable.css';
+import './styles/MobileTable.css';
 import formatPhoneNumber from '../utils/formatPhoneNumber.ts';
 import { useFilter } from '../context/FilterContext.tsx';
 import Employee from '../types/EmployeeTypes.tsx';
@@ -37,8 +37,12 @@ const MobileTable = () => {
   return (
     <div className='mobile-table-container'>
       <div className='mobile-table-header'>
-        <h2>Foto</h2>
-        <h2>Nome</h2>
+        <div className='foto-mobile-container'>
+          <h2>Foto</h2>
+        </div>
+        <div className='name-mobile-container'>
+          <h2>Nome</h2>
+        </div>
         <span>
           <img src={PointIcon} alt='' />
         </span>

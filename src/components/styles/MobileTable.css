@@ -41,10 +41,12 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 .mobile-table-item-details {
-  margin-top: 5px;
+  margin: 20px 2px;
 }
 
 .mobile-table-item-details p {
@@ -52,6 +54,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.5px dotted #e9ecef;
+  font-family: 'Roboto', regular, sans-serif;
 }
 
 .mobile-table-item-details p {
@@ -60,8 +63,13 @@
 
 @media (max-width: 560px) {
   .mobile-table-item-header img {
-    width: 24px;
-    height: 24px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .arrow-button img {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -69,4 +77,8 @@
   border: none;
   cursor: pointer;
   background-color: #ffffff;
+}
+
+.name-mobile-container {
+  margin-right: 20px;
 }

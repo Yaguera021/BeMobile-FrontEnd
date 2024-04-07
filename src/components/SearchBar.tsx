@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
-import './SearchBar.css';
+import './styles/SearchBar.css';
 import { useFilter } from '../context/FilterContext.tsx';
 import { SearchIcon } from '../svgImports.js';
 

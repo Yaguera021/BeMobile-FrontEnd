@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import { fetchEmployees } from '../data/api';
-import './EmployeeTable.css';
+import './styles/EmployeeTable.css';
 import formatPhoneNumber from '../utils/formatPhoneNumber.ts';
 import { useFilter } from '../context/FilterContext.tsx';
 import Employee from '../types/EmployeeTypes.tsx';
@@ -33,26 +33,22 @@ const EmployeeTable = () => {
     getEmployees();
   }, []);
 
+  const tableHeaders = [
+    'Foto',
+    'Nome',
+    'Cargo',
+    'Data de Admissão',
+    'Telefone',
+  ];
+
   return (
     <div className='table-container'>
       <table>
         <thead>
           <tr>
-            <th>
-              <h2>Foto</h2>
-            </th>
-            <th>
-              <h2>Nome</h2>
-            </th>
-            <th>
-              <h2>Cargo</h2>
-            </th>
-            <th>
-              <h2>Data de Admissão</h2>
-            </th>
-            <th>
-              <h2>Telefone</h2>
-            </th>
+            {tableHeaders.map((header, index) => (
+              <th key={index}>{header}</th>
+            ))}
           </tr>
         </thead>
         <tbody>
