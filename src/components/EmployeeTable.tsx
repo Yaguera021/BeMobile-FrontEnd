@@ -42,7 +42,7 @@ const EmployeeTable = () => {
   ];
 
   return (
-    <div className='table-container'>
+    <div className='table-container' data-testid='employee-table'>
       <table>
         <thead>
           <tr>

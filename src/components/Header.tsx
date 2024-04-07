@@ -4,7 +4,7 @@ import { BeIcon } from '../svgImports';
 
 function Header() {
   return (
-    <div className='header'>
+    <div className='header' data-testid='header'>
       <img src={BeIcon} alt='Be Mobile Icon' className='icon' />
     </div>
   );

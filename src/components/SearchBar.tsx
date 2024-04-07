@@ -14,7 +14,7 @@ function SearchBar() {
   };
 
   return (
-    <div className='search-container'>
+    <div className='search-container' data-testid='search-bar'>
       <h4>Funcionários</h4>
       <div className='input-container'>
         <input

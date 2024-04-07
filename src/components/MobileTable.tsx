@@ -35,7 +35,7 @@ const MobileTable = () => {
   };
 
   return (
-    <div className='mobile-table-container'>
+    <div className='mobile-table-container' data-testid='mobile-table'>
       <div className='mobile-table-header'>
         <div className='foto-mobile-container'>
           <h2>Foto</h2>
