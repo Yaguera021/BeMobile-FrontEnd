@@ -63,4 +63,21 @@ Tenha instaladas em sua máquina as ferramentas [Git](https://git-scm.com/), [No
 
 ---
 
+### Conteúdo extra:
+
+<details>
+  <summary>🧪 Testes 🧪</summary>
+
+Os testes desse desafios foram implementados para fins de praticar e garantir suas funcionalidades e respostas.
+
+Execute `npm test` para executar o arquivo dos testes
+
+Execute `npm test -- --coverage` para checar a cobertura dos testes
+
+<details>
+  <summary> De olho na dica! 👁️👁️ 👇 </summary>
+  Após executar os comandos acima, também é possível verificar o report dos testes através do caminho "coverage/lcov-report/index.html", utilize a extensão Live Server para ter uma visualização detalhada das linhas do código 😉
+</details>
+</details>
+<br>
 Este projeto foi desenvolvido por Yago Böhm da Cruz com o objetivo de realizar o teste técnico em Front-end da Be, sendo destinado exclusivamente para fins de estudo e avaliação.
