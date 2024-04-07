@@ -12,15 +12,16 @@ O Teste Técnico para Front-End da Be consiste em construir a visualização de 
 
 1. Clone este repositório do GitHub em sua máquina: [https://github.com/Yaguera021/BeMobile-FrontEnd](https://github.com/Yaguera021/BeMobile-FrontEnd);
 2. Execute `npm install` para instalar as dependências.
-3. No diretório `bemobile-frontend/src/data`, execute `json-server --port 3001 --watch db.json` para iniciar o json-server.
-4. Após iniciar o json-server, execute `npm start` para iniciar a aplicação React.
+3. Caso você não tenha o json-server na sua máquina, utilize o comando `npm install -g json-server` para instalá-lo globalmente.
+4. No diretório `bemobile-frontend/src/data`, execute `json-server --port 3001 --watch db.json` para iniciar o json-server.
+5. Após iniciar o json-server, execute `npm start` para iniciar a aplicação React.
 
 <details>
   <summary> De olho na dica! 👁️👁️ 👇 </summary>
 
 Aplicação React estará rodando na porta 3000.
 
-Com o comando mencionado acima, setamos o json-server para porta 3001 afim de evitar conflitos. ❗🙌
+Com o comando mencionado acima, setamos o json-server para porta 3001 afim de evitar conflitos.❗🙌
 
 É necessário deixar o json-server rodando no terminal para que os dados sejam visualizados no projeto. ⚠️
 
