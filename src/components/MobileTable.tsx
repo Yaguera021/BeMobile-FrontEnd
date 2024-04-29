@@ -37,10 +37,10 @@ const MobileTable = () => {
   return (
     <div className='mobile-table-container' data-testid='mobile-table'>
       <div className='mobile-table-header'>
-        <div className='foto-mobile-container'>
+        <div>
           <h2>Foto</h2>
         </div>
-        <div className='name-mobile-container'>
+        <div>
           <h2>Nome</h2>
         </div>
         <span>
